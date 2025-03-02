@@ -1,0 +1,26 @@
+@use 'imports';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-main), sans-serif;
+}
+
+html, body, #__nuxt {
+  width: 100%;
+  height: 100dvh;
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+input, textarea, select, button {
+  background: var(--transparent);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
